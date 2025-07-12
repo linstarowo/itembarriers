@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.linstar.itembarriers.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "itembarriers.refmap.json",
+  "mixins": [
+    "ItemStackMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

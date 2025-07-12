@@ -1,0 +1,18 @@
+{
+  "item.itembarriers.banned_item": "Banned Item",
+
+  "info.itembarriers.command.item.added": "This item has been banned",
+  "info.itembarriers.command.item.removed": "This item has been unbanned",
+  "info.itembarriers.command.item.already_added": "This item is already banned!",
+  "info.itembarriers.command.item.not_banned": "This item has never been banned",
+  "info.itembarriers.command.item.list": "Banned Items:",
+  "info.itembarriers.command.item.list_empty": "There are currently no banned items",
+
+  "info.itembarriers.item.remove": "The mod for this item has been removed, and the item will be emptied.",
+  "info.itembarriers.item.steal_banned": "This item remains banned. You cannot use it.",
+  "info.itembarriers.item.pardon": "This item is unbanned. You can use it now.",
+  "info.itembarriers.item.pardon_by_operator": "Because you are an operator, this item is temporarily unbanned.",
+  "info.itembarriers.item.info": "Item Info:",
+
+  "info.itembarriers.crafting.banned": "This item has been banned and cannot be crafted"
+}

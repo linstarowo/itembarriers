@@ -1,0 +1,18 @@
+{
+  "item.itembarriers.banned_item": "被封禁的物品",
+
+  "info.itembarriers.command.item.added": "已封禁此物品",
+  "info.itembarriers.command.item.removed": "已解禁此物品",
+  "info.itembarriers.command.item.already_added": "此物品已经被封禁了",
+  "info.itembarriers.command.item.not_banned": "此物品从未被封禁",
+  "info.itembarriers.command.item.list": "被封禁的物品: ",
+  "info.itembarriers.command.item.list_empty": "目前没有被封禁的物品",
+
+  "info.itembarriers.item.remove": "此物品对应模组已被移除, 此物品将被清空",
+  "info.itembarriers.item.steal_banned": "此物品在此世界被封印!",
+  "info.itembarriers.item.pardon": "此物品已被解禁",
+  "info.itembarriers.item.pardon_by_operator": "介于您是管理员, 此物品已被暂时解禁",
+  "info.itembarriers.item.info": "物品信息:",
+
+  "info.itembarriers.crafting.banned": "此物品已被封禁, 无法合成"
+}
