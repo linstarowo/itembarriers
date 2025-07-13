@@ -23,7 +23,7 @@ import java.util.Map;
 
 public class EnchantBarriersCommand {
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher){
-        dispatcher.register(Commands.literal("enchantbarriers")
+        dispatcher.register(Commands.literal("enchantbarriers").requires(stack -> stack.hasPermission(4))
                 .then(Commands.literal("add").executes(context -> {
                     ServerPlayer player = context.getSource().getPlayerOrException();
                     ItemStack stack = player.getMainHandItem();

@@ -22,7 +22,7 @@ import java.util.List;
 
 public class ItemBarriersCommand {
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher){
-        dispatcher.register(Commands.literal("itembarriers")
+        dispatcher.register(Commands.literal("itembarriers").requires(stack -> stack.hasPermission(4))
                 .then(Commands.literal("add_with_block").executes(context -> {
                     ServerPlayer player = context.getSource().getPlayerOrException();
                     ItemBarriersCommand.addItem(player, BannedItemsData.OperateType.NORMAL);
